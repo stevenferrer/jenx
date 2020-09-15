@@ -1,2 +1,2 @@
 # jenx
-Useful extensions for jennifer
+Useful extensions for [jennifer](https://github.com/dave/jennifer)
