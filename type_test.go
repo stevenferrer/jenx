@@ -7,8 +7,8 @@ import (
 
 	"github.com/dave/jennifer/jen"
 	"github.com/google/uuid"
-	"github.com/sf9v/jenx/internal"
-	"github.com/sf9v/mira"
+	"github.com/stevenferrer/jenx/internal"
+	"github.com/stevenferrer/mira"
 	"github.com/stretchr/testify/assert"
 )
 
@@ -334,7 +334,7 @@ func TestType(t *testing.T) {
 			args: args{
 				v: internal.Map{},
 			},
-			want: jen.Qual("github.com/sf9v/jenx/internal", "Map"),
+			want: jen.Qual("github.com/stevenferrer/jenx/internal", "Map"),
 		},
 	}
 	for _, tt := range tests {

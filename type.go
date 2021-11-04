@@ -4,13 +4,13 @@ import (
 	"reflect"
 
 	"github.com/dave/jennifer/jen"
-	"github.com/sf9v/mira"
+	"github.com/stevenferrer/mira"
 )
 
 // Type value type statement
 func Type(v interface{}) *jen.Statement {
 	var (
-		mt    = mira.NewType(v)
+		mt    = mira.NewTypeInfo(v)
 		rt    = resolveType(mt.T())
 		isPtr = mt.T().Kind() == reflect.Ptr
 		c     = new(jen.Statement)

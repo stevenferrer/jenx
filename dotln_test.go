@@ -5,7 +5,7 @@ import (
 	"testing"
 
 	"github.com/dave/jennifer/jen"
-	"github.com/sf9v/jenx"
+	"github.com/stevenferrer/jenx"
 	"github.com/stretchr/testify/assert"
 )
 

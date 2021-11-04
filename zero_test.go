@@ -7,8 +7,8 @@ import (
 
 	"github.com/dave/jennifer/jen"
 	"github.com/google/uuid"
-	"github.com/sf9v/jenx/internal"
-	"github.com/sf9v/mira"
+	"github.com/stevenferrer/jenx/internal"
+	"github.com/stevenferrer/mira"
 	"github.com/stretchr/testify/assert"
 )
 
